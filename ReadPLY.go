@@ -54,7 +54,7 @@ func ReadPLYMono64(filename string) ([]plyfile.VertexMono64, []plyfile.Face64) {
 	plyfile.PlyClose(cplyfile)
 	return vertices, faces
 }
-func ReadPLYMono32Huge(filename string) ([]plyfile.VertexMono, []plyfile.Face32) {
+func ReadPLYMono32(filename string) ([]plyfile.VertexMono, []plyfile.Face32) {
 	var vertices []plyfile.VertexMono
 	var faces []plyfile.Face32
 
